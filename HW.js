@@ -34,59 +34,16 @@ while(i<3)
     i++;
 }
 
-//Do while loop//
-var i = 1, sum = 0;
-do {
-  sum = i;
-  i++;
-} 
-while (i <= 5);
+// character ki length ko detect krna with .length//
+var a="aayush";
+var num=a.length;
+console.log(num);
 
-//For loop//
-
-for (let i = 1; i <= 5; i++) 
-{
- console.log(i);
-}
+// red
 
 
-
-
-//PROMPT :user who type //
-//  var age=confirm("Enter your age:");
-
-// if(age==true);
-// {
-//     alert("you can vote");
-// }
-// else if(age==false)
-// {
-//     alert("you can't vote");
-// }
-// else
-// {
-//     alert("please enter valid age");
-// }
-
-//character ki length ko detect krna with .length//
-// var a="aayush";
-// var num=a.length;
-// console.log(num);
-
-//chartAt used for detecting the letter number//
-// var a="aayush";
-// var num=a.chartAt(3);
-// console.log(num);
-
-//aski code detect krta hai//
-// var a="aayush";
-// var num=a.chartAt(3);
-// console.log(num);
-
-//name.addto 
-
-
-let age=17;
+//If else example//
+var age=17;
 let votingCard=false
 if(age>=18 && votingCard==true)
 {
@@ -97,11 +54,103 @@ else{
 }
 
 
-
+//If else example//
 if(age>=18 || votingCard==true)
 {
     console.log("you are eligible for voting");
 }
 else{
     console.log("you are not eligible for voting");     
+}
+
+
+//If else example//
+let colo=prompt("Enter the color of traffic light:");
+if(colo=="red")
+{
+    console.log("Stop");
+}else if(colo=="yellow")
+{
+    console.log("Ready");
+}else if(colo=="green")
+{
+    console.log("Go");
+}else{
+    console.log("Invalid color");
+}
+
+
+//for loop example//
+for(a=0;a>=10;a++){
+    console.log(a);
+}
+
+//Else if statement HOMEWORK TODAY//
+var age=12;
+
+if(age==10)
+{
+    console.log("payment has been credited by 1000 rupees only");
+}
+else if(age==11)
+{
+    console.log("payment credited 2000 rupees only");
+}
+else if(age==12)
+{
+    console.log("payment has been credited by 3000 rupees only");
+}
+else if(age==13)
+{
+    console.log("payment has been credited by 4000 rupees only");
+}
+else if(age==14)
+{
+    console.log("payment has been credited by 5000 rupees only");
+}
+else if(age==15)
+{
+    console.log("payment has been credited by 6000 rupees only");
+}
+else{
+    console.log("no payment has been credited");
+}
+
+//Else if statement HOMEWORK TODAY 2//
+var button=2;
+
+if(button==1)
+{
+    console.log("turn on fan");
+}
+else if(button==2)
+{
+    console.log("turn on T.V");
+}
+else if(button==3)
+{
+    console.log("turn on lights");
+}
+else if(button==4)
+{
+    console.log("turn on AC");
+}
+else if(button==5)
+{
+    console.log("turn on geyser");
+}
+else if(button==6)
+{
+    console.log("turn on gas");
+}
+else if(button==7)
+{
+    console.log("turn on fridge");
+}
+else if(button==8)
+{
+    console.log("turn off all appliances at same time");
+}
+else{
+    console.log("no appliance is on");
 }

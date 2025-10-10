@@ -29,3 +29,4 @@ while(b<=10){
 for(a=0;a>=10;a++){
     console.log(a);
 }
+
