@@ -1,4 +1,4 @@
-// AND Gate
+// AND Gate//
 
 var a=10;
 var b=6;
@@ -29,7 +29,7 @@ if(a<b && a>b)
     console.log("false");
 }
 
-//OR Gate
+//OR Gate//
 
 var a=44;
 var b=22;
@@ -60,7 +60,7 @@ if(a<b || a>b)
     console.log("true");
 }
 
-//NOT Gate
+//NOT Gate//
 
 var a=7;
 var b=9;
@@ -77,7 +77,7 @@ if(!(a>b))
     console.log("false");
 }
 
-//Switch Case Example
+// Switch Case Example//
 var days=4;
 switch(days)
  {

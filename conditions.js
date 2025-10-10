@@ -1,5 +1,5 @@
 
-//If statement
+//If statement//
 var a=10;
 var b=5;
 if(a>b)
@@ -7,7 +7,7 @@ if(a>b)
     console.log("a is greater than b");
 }
 
-//Else statement
+//Else statement//
 var m=10;
 var c=5;
 if(m>c)
@@ -19,7 +19,7 @@ else
     console.log("c is greater");
 }
 
-//Else statement 2
+//Else statement 2//
 var p=50;
 var q=50;
 if(p>=q)
@@ -30,7 +30,7 @@ else{
     console.log("q is king");
 }
 
-//Else if statement
+//Else if statement//
 var minal=12;
 if(minal>=18)
 {
@@ -45,7 +45,7 @@ else
     console.log("not eigible for voting");
 }
 
-//Else if statement HOMEWORK TODAY
+//Else if statement HOMEWORK TODAY//
 var age=12;
 
 if(age==10)
@@ -76,7 +76,7 @@ else{
     console.log("no payment has been credited");
 }
 
-//Else if statement HOMEWORK TODAY 2
+//Else if statement HOMEWORK TODAY 2//
 var button=2;
 
 if(button==1)
