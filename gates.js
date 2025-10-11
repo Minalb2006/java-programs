@@ -120,3 +120,30 @@ default:
         console.log("Invalid Input");
     }
 }
+
+//HOMEWORK//
+
+//And && Operator//
+var a=12;
+var b=30;
+if(a==12 && b==30)
+{
+    console.log("The time is 12:30");
+}
+
+//OR || Operator//
+var hour=9;
+if(hour<10 || hour>18)
+{
+    console.log("The office is closed.");
+}
+
+//NOT ! Operator//
+var loggedIn=false;
+if(!loggedIn)
+{
+    console.log("Please log in first!");
+}
+else{
+    console.log("Login Denied")
+}

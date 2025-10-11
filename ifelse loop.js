@@ -1,31 +1,4 @@
 
-//HOMEWORK//
-
-//And && Operator//
-var a=12;
-var b=30;
-if(a==12 && b==30)
-{
-    console.log("The time is 12:30");
-}
-
-//OR || Operator//
-var hour=9;
-if(hour<10 || hour>18)
-{
-    console.log("The office is closed.");
-}
-
-//NOT ! Operator//
-var loggedIn=false;
-if(!loggedIn)
-{
-    console.log("Please log in first!");
-}
-else{
-    console.log("Login Denied")
-}
-
 // while loop //
 var i=0;
 while(i<3) 
@@ -38,9 +11,6 @@ while(i<3)
 var a="aayush";
 var num=a.length;
 console.log(num);
-
-// red
-
 
 //If else example//
 var age=17;
@@ -65,14 +35,14 @@ else{
 
 
 //If else example//
-let colo=prompt("Enter the color of traffic light:");
+let color=prompt("Enter the color of traffic light:");
 if(colo=="red")
 {
     console.log("Stop");
-}else if(colo=="yellow")
+}else if(color=="yellow")
 {
     console.log("Ready");
-}else if(colo=="green")
+}else if(color=="green")
 {
     console.log("Go");
 }else{
@@ -153,4 +123,82 @@ else if(button==8)
 }
 else{
     console.log("no appliance is on");
+}
+//If statement//
+var a=10;
+var b=5;
+if(a>b)
+{
+    console.log("a is greater than b");
+}
+
+//Else statement//
+var m=10;
+var c=5;
+if(m>c)
+{
+    console.log("m is greater");
+}
+else
+{
+    console.log("c is greater");
+}
+
+//Else statement 2//
+var p=50;
+var q=50;
+if(p>=q)
+{
+    console.log("p is queen");
+}
+else{
+    console.log("q is king");
+}
+
+//Else if statement//
+var minal=12;
+if(minal>=18)
+{
+    console.log("eigible for voting");
+}
+else if(minal>=16)
+{
+    console.log("not eigible for voting");
+}
+else
+{
+    console.log("not eigible for voting");
+}
+
+
+//If else example//
+let colo=prompt("Enter the color of traffic light:");
+if(colo=="red")
+{
+    console.log("Stop");
+}else if(colo=="yellow")
+{
+    console.log("Ready");
+}else if(colo=="green")
+{
+    console.log("Go");
+}else{
+    console.log("Invalid color");
+}
+
+//while loop example//
+const a=2
+let b=1
+while(b<=10){
+    c=a*b
+    console.log("2 X"+b+"="+c)
+    //console.log("2 X",b."=",c)
+    // console.log(`2 X ${b} =${c}`)
+    b++;
+}
+
+
+//for loop example//
+for(a=0;a>=10;a++){
+    console.log(a);
 }
