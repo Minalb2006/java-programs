@@ -1,14 +1,14 @@
 //do while break//
-// const p = 5;
-// let n = 1;
-// do {
-//     if(n===5){
-//     break;
-
-//     }
-//     console.log (p * n);
-//     n++;
-// } while (n <= 10);
+const p = 5;
+let n = 1;
+do {
+   
+    if(n===5) {
+      break;
+    }
+    console.log (p * n);
+    n++;
+} while (n <= 10);
 
 
 //do while continue//
