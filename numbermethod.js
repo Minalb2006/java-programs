@@ -1,9 +1,10 @@
 //.tostring method this breaks the value and print at secondline in short give the string value
 
 var a=134;
-console.log(a.toString());              //134
-console.log((123).toString());          //123
-console.log((180 + 25).toString());     //125
+console.log(a.toString());                 //134
+console.log((245).toString()) ;            //245
+console.log((123).toString()+10);          //12310
+console.log((180 + 25).toString());        //125
 
 //.tostring() are used the radix values like binary,octal,decimal,hexadeccimal combinationn of this can give the final value.
 var b=333;
@@ -13,6 +14,7 @@ console.log(b.toString(2));
 //.toExponential method after decimal if the value is low ,they  add zero instead any number.
 var c=2.11;
 console.log(c.toExponential());  //2.11e+0
+console.log(c.toExponential(1)); //2.1e+0
 console.log(c.toExponential(3)); //2.110e+0
 console.log(c.toExponential(5)); //2.11000e+0
 
@@ -24,7 +26,7 @@ console.log(d.toFixed(3));  //8.657
 console.log(d.toFixed(2));  //8.66
 
 //.toPecision() method print the value by cut 1 no. means input is 1234(3) then output will be 123.
-var e=0.21011;
+var e=5.21011;
 console.log(e.toPrecision(3));  //0.210
 console.log(e.toPrecision(2));  //0.21
 console.log(e.toPrecision(4));  //0.2101
